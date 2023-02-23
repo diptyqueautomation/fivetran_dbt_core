@@ -1,0 +1,6 @@
+version: 2
+
+sources:
+  - name: s_facebook_ads
+    tables:
+      - name: ACCOUNT_HISTORY

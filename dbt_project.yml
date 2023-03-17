@@ -23,3 +23,47 @@ target-path: "target"  # directory which will store compiled SQL files
 clean-targets:         # directories to be removed by `dbt clean`
   - "target"
   - "dbt_packages"
+
+vars:
+    amazon_ads_schema: amazon_ads
+#    amazon_ads_database: your_database_name
+
+    apple_search_ads_schema: apple_search_ads
+#    apple_search_ads_database: your_database_name
+
+    facebook_ads_schema: s_facebook_ads
+#    facebook_ads_database: your_database_name 
+
+    google_ads_schema: s_google_ads
+#    google_ads_database: your_database_name 
+
+    microsoft_ads_schema: bingads
+#    microsoft_ads_database: your_database_name
+
+    linkedin_ads_schema: s_linkedin_ads 
+#    linkedin_ads_database: your_database_name  
+
+    pinterest_schema: s_pinterest_ads
+#    pinterest_database: your_database_name 
+
+    twitter_ads_schema: s_twitter_ads
+#    twitter_ads_database: your_database_name  
+
+    snapchat_schema: snapchat_ads
+#    snapchat_database: your_database_name 
+    
+    tiktok_ads_schema: tiktok_ads
+#    tiktok_ads_database: your_database_name
+
+    ad_reporting__amazon_ads_enabled: False # by default this is assumed to be True
+    
+    ad_reporting__apple_search_ads_enabled: False # by default this is assumed to be True
+    
+    ad_reporting__microsoft_ads_enabled: False # by default this is assumed to be True
+    
+    ad_reporting__facebook_ads_enabled: False # by default this is assumed to be True
+    
+    ad_reporting__snapchat_ads_enabled: False # by default this is assumed to be True
+    
+    ad_reporting__tiktok_ads_enabled: False # by default this is assumed to be True
+
